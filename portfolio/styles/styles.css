@@ -69,7 +69,7 @@ footer p a:hover {
 .index-title{
     text-align: center;
     grid-column: 4/6;
-    grid-row: 1/1;
+    grid-row: 1/2;
     z-index: 1;
     font-family: Old Standard TT, sans-serif;
     text-decoration: underline;
