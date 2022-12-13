@@ -66,6 +66,7 @@ footer p a:hover {
 }
 
 .index-title{
+    padding-top: 70px;
     text-align: center;
     grid-column: 5/6;
     grid-row: 1/2;
@@ -110,6 +111,7 @@ footer p a:hover {
 
 }
 .title2{
+    padding-top: 70px;
     text-align: center;
     grid-row: 1/2;
     grid-column: 5/6;
@@ -126,4 +128,41 @@ footer p a:hover {
     max-width: 100%;
     grid-row: 5/7;
     grid-column: 6/8;
+}
+/*Page 3*/
+.grid3{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr .25fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: .25fr .25fr .25fr .5fr .25fr .25fr ;
+}
+.title3{
+    padding-top: 70px;
+    text-align: center;
+    grid-row: 1/2;
+    grid-column: 5/6;
+    font-family: Old Standard TT, sans-serif;
+    font-size: large;
+    text-decoration: underline;
+}
+.project1{
+    max-width: 100%;
+    grid-row: 2/5;
+    grid-column: 2/5;
+}
+.project2{
+    max-width: 70%;
+    grid-row: 4/7;
+    grid-column: 2/5;
+    padding-left: 200px;
+}
+.msg3{
+    grid-row: 2/5;
+    grid-column: 6/8;
+    font-family: Assistant, sans-serif;
+    font-size: 1.2vw;
+    border: 5px double Black;
+}
+
+.social{
+    padding: 11px;
 }
