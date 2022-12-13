@@ -212,6 +212,37 @@ main section img{
     grid-row-end: 8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+/*This is where the rates/dates css code is*/
+
+.rates-grid{
+    display: grid;
+    grid-template-columns:25% 25% 10% 20%;
+    grid-template-rows: 25% 25% 25% 50% 50%;
+}
+
+.topper{
+    color: black;
+    grid-row: 0/2;
+    grid-column: 2/3;
+   
+}
+.rates{
+  float:left;
+    grid-row:2/4;
+    grid-column:0/5;
+    width: 200%;
+
+}
+.rates-msg{
+    grid-column: 4/5;
+    grid-row: 1/5;
+    padding-bottom: 200px;
+}
+
+
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
