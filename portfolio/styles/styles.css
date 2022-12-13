@@ -7,6 +7,7 @@
 #content{
     max-width: 100%;
     margin: 0 auto;
+    background-color: #F9F3F1;
 }
 nav a{
     text-align: center;
@@ -20,7 +21,7 @@ header{
     background-color: #59849B;
     display: grid;
     grid-template-columns: 150px auto;
-    font-family: 'Playball', sans-serif;
+    font-family: Old Standard TT, sans-serif;
     font-size: 2em;
 }
 nav {
@@ -54,3 +55,40 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 } 
+
+#intro-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.title-back{
+    background-color: #585655;
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+.index-title{
+    text-align: center;
+    grid-column: 4/6;
+    grid-row: 1/1;
+    z-index: 1;
+    font-family: Old Standard TT, sans-serif;
+    text-decoration: underline;
+}
+
+.face{
+    max-width: 40%;
+ margin-bottom: 0;
+    grid-column: 1/4;
+    grid-row: 2/3;
+ 
+}
+.splash{
+    max-width: 25%;
+    grid-column: 6/9;
+    grid-row: 2/3;
+}
+.intro-msg{
+    grid-column: 6/9;
+    grid-row: 4/9;
+    font-family: Assistant, sans-serif;
+}
