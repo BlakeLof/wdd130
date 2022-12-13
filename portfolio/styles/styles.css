@@ -23,6 +23,7 @@ header{
     grid-template-columns: 150px auto;
     font-family: Old Standard TT, sans-serif;
     font-size: 2em;
+    border-bottom: 2px solid #BB4430;
 }
 nav {
     display: flex;
@@ -42,11 +43,12 @@ nav a:hover{
 }
 footer{
     background-color: #59849B;
-    color: black;
+    color: #F9F3F1;
     display:flex;
     justify-content: space-around;
     align-items: center;
     margin-top: -100px;
+    border-top: 2px solid #BB4430;
 }
 footer p {
     font-size: 1.2em;
@@ -54,21 +56,18 @@ footer p {
 }   
 footer p a:hover {
     text-decoration: underline;
+    color: #F9F3F1;
 } 
 
-#intro-grid{
+.intro-grid{
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr .25fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: .25fr .25fr .25fr .5fr .5fr .25fr .25fr;
 }
-.title-back{
-    background-color: #585655;
-    grid-column: 5/6;
-    grid-row: 1/2;
-}
+
 .index-title{
     text-align: center;
-    grid-column: 4/6;
+    grid-column: 5/6;
     grid-row: 1/2;
     z-index: 1;
     font-family: Old Standard TT, sans-serif;
@@ -76,19 +75,21 @@ footer p a:hover {
 }
 
 .face{
-    max-width: 40%;
- margin-bottom: 0;
-    grid-column: 1/4;
-    grid-row: 2/3;
+    max-width: 100%;
+    grid-column: 2/5;
+    grid-row: 2/5;
+    border: 3px solid black ;
  
 }
 .splash{
-    max-width: 25%;
+    max-width: 80%;
     grid-column: 6/9;
     grid-row: 2/3;
 }
 .intro-msg{
-    grid-column: 6/9;
-    grid-row: 4/9;
+    grid-column: 6/8;
+    grid-row: 3/7;
     font-family: Assistant, sans-serif;
+    font-size: 20px;
+    border: 5px double Black;
 }
